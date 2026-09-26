@@ -17,7 +17,7 @@ em um único ambiente — com um portal separado onde cada aluno acompanha o pr�
 
 ---
 
-## 📸 Demonstração
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/monitor-smartphone.svg"><img src="docs/icons/light/monitor-smartphone.svg" width="24" height="24" alt="" align="absmiddle"></picture> Demonstração
 
 ### Área do Personal Trainer
 
@@ -73,7 +73,7 @@ em um único ambiente — com um portal separado onde cada aluno acompanha o pr�
 
 ---
 
-## 💡 Sobre o projeto
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/info.svg"><img src="docs/icons/light/info.svg" width="24" height="24" alt="" align="absmiddle"></picture> Sobre o projeto
 
 O acompanhamento entre personal trainer e aluno costuma ficar espalhado: a ficha em PDF no
 WhatsApp, os horários em um caderno, as medidas em uma planilha e a carga da semana passada na
@@ -93,7 +93,7 @@ apenas os próprios dados e um personal apenas os alunos vinculados a ele.
 
 ---
 
-## ✨ Principais funcionalidades
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/layout-dashboard.svg"><img src="docs/icons/light/layout-dashboard.svg" width="24" height="24" alt="" align="absmiddle"></picture> Principais funcionalidades
 
 ### Personal Trainer
 
@@ -127,7 +127,7 @@ confirmado ou cancelado.
 
 ---
 
-## 🛠️ Tecnologias
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/code-xml.svg"><img src="docs/icons/light/code-xml.svg" width="24" height="24" alt="" align="absmiddle"></picture> Tecnologias
 
 **Frontend** — Next.js 16 (App Router, Server Components) · React 19 · TypeScript 5 em modo
 estrito · Tailwind CSS 4 · shadcn/ui sobre Base UI
@@ -145,7 +145,7 @@ armazenamento). O ambiente é privado: não há instância pública do produto.
 
 ---
 
-## 🏗️ Arquitetura
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/network.svg"><img src="docs/icons/light/network.svg" width="24" height="24" alt="" align="absmiddle"></picture> Arquitetura
 
 Uma aplicação só: o Next.js serve páginas e API no mesmo processo. As páginas são Server
 Components; os componentes de cliente conversam com os Route Handlers, que são o backend.
@@ -174,7 +174,7 @@ cancelamento e datas de calendário são testáveis sem banco e sem HTTP.
 
 ---
 
-## 🧠 Desafios técnicos
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/brain-circuit.svg"><img src="docs/icons/light/brain-circuit.svg" width="24" height="24" alt="" align="absmiddle"></picture> Desafios técnicos
 
 ### Corrida por um mesmo horário na agenda
 
@@ -238,7 +238,7 @@ endereço ou do e-mail, para que a tabela não se torne uma lista de contas sond
 
 ---
 
-## 🧪 Qualidade
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/flask-conical.svg"><img src="docs/icons/light/flask-conical.svg" width="24" height="24" alt="" align="absmiddle"></picture> Qualidade
 
 **558 testes automatizados em 36 arquivos.**
 
@@ -258,7 +258,7 @@ do navegador: cookie, guarda de rota, validação, consulta e resposta.
 
 ---
 
-## 🔐 Segurança
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/shield-check.svg"><img src="docs/icons/light/shield-check.svg" width="24" height="24" alt="" align="absmiddle"></picture> Segurança
 
 - **Autenticação** gerenciada por provedor dedicado; cookie de sessão restrito ao servidor.
 - **Autorização por papel** (Personal / Aluno) lida do banco a cada requisição, nunca do token.
@@ -274,7 +274,7 @@ do navegador: cookie, guarda de rota, validação, consulta e resposta.
 
 ---
 
-## 📚 Aprendizados
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/book-open.svg"><img src="docs/icons/light/book-open.svg" width="24" height="24" alt="" align="absmiddle"></picture> Aprendizados
 
 O que a construção desta plataforma exercitou, concretamente:
 
@@ -295,7 +295,7 @@ O que a construção desta plataforma exercitou, concretamente:
 
 ---
 
-## 👨‍💻 Autor
+## <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icons/dark/user-round.svg"><img src="docs/icons/light/user-round.svg" width="24" height="24" alt="" align="absmiddle"></picture> Autor
 
 **Enzo Carvalho Calligaris**
 
