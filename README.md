@@ -1,7 +1,10 @@
 # Pulse Training
 
-Plataforma full-stack para personal trainers gerenciarem alunos, treinos, agenda e evolução física,
-com um portal dedicado em que cada aluno acompanha o próprio treino pelo celular.
+Plataforma full-stack para personal trainers gerenciarem alunos, treinos, agenda e evolução física
+em um só lugar, com um portal dedicado em que cada aluno acompanha o próprio treino pelo celular.
+
+Projeto autoral, concebido e desenvolvido de ponta a ponta por **Enzo Carvalho Calligaris**:
+definição do produto, arquitetura, modelagem de dados, backend, frontend, segurança e testes.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
@@ -323,7 +326,7 @@ O que a construção desta plataforma exercitou, concretamente:
 - **Tempo é duas coisas diferentes** — separar data de calendário de instante, fixar o fuso da
   aplicação e rodar os testes em UTC para que o comportamento não dependa de onde o código roda.
 - **Testar pelo caminho real** — servidor de produção, HTTP, banco e autenticação de verdade.
-  Testes que mockam o banco passam enquanto a aplicação quebra.
+  Testes que mockam o banco podem passar enquanto a aplicação quebra.
 - **Tratar entrada externa como hostil** — validação por decodificação nos uploads, schema nos
   corpos de requisição e limite de tentativas compartilhado.
 
